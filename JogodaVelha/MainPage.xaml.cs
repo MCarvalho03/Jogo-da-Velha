@@ -53,7 +53,7 @@
                     int linha = Grid.GetRow(b);//Pega a linha
                     int coluna = Grid.GetColumn(b);//Pega a coluna
                     b.Text = (linha * 3 + coluna + 1).ToString();//Transforma o numero(resultado da formula) em texto
-                    //Coloca os textos dos botôes usando numeros de 1-9, igual coloquei no inicio
+                    //Coloca os textos dos botões usando numeros de 1-9, igual coloquei no inicio
                     //Fórmula --> linha*3 + coluna + 1
                     //Na prática --> linha 0, coluna 0 -> (0+3)+0+1 = 1
                     //               linha 0, coluna 1 -> (0+3)+1+1 = 2
@@ -117,7 +117,7 @@
             }
 
 
-            if (jogador == "x")
+            if (jogador == "x") // Alterna a vez dos jogadores
             {
                 jogador = "o";
             }
